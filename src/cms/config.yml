@@ -37,7 +37,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Вступление", name: "description", widget: "text"}
       - {label: "Фото", name: "image", widget: "image", required: false}
       - {label: "Основной текст", name: "body", widget: "markdown"}
- - name: "pages"
+  - name: "pages"
     label: "Pages"
     create: true # Allow users to create new documents in this collection
     files:
