@@ -2,7 +2,7 @@
 title: иуыоиуыоиуыоиуыо
 date: 2017-08-11T18:57:30.722Z
 description: .шйдлкшйе дчлкшйчмд;шед
-image: /img/MX_Gavr.jpg
+image: /img/mickey2.jpg
 ---
 \#,бкблк лкйч лкчймлкчм
 
@@ -16,3 +16,4 @@ image: /img/MX_Gavr.jpg
    ![wswswswsws](/img/gearYellow.png)
 
 2. jhkglghjgjghjk
+
