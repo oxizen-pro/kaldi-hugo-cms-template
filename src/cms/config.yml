@@ -27,7 +27,17 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Intro Blurb", name: "description", widget: "text"}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "pages"
+  - name: "Подарки" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Подарки" # Used in the UI, ie.: "New Post"
+    folder: "site/content/podarki" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Заголовок", name: "title", widget: "string"}
+      - {label: "Опубликовано:", name: "date", widget: "datetime"}
+      - {label: "Вступление", name: "description", widget: "text"}
+      - {label: "Фото", name: "image", widget: "image", required: false}
+      - {label: "Основной текст", name: "body", widget: "markdown"}
+ - name: "pages"
     label: "Pages"
     create: true # Allow users to create new documents in this collection
     files:
